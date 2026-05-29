@@ -1,0 +1,60 @@
+# Executables
+*.exe
+*.out
+*.app
+a.out
+
+# Object files
+*.o
+*.obj
+*.ko
+*.so.o
+*.p.o
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Compiled source
+*.cpp.o
+*.c.o
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# Build directories
+build/
+cmake-build-*/
+dist/
+.build/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.cbp
+*.depend
+*.layout
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Temporary files
+*.tmp
+*.bak
+*.log
