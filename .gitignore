@@ -6,3 +6,7 @@ day3/GCD.exe
 day3/LCM.exe
 day3/PrimeNumber.exe
 day3/PrimeNumberInRange.exe
+day4/ArmstrongNumber_in_Range.exe
+day4/checkArmstrongNumber.exe
+day4/fibonacciSeries.exe
+day4/nthFibonacciTerm.exe
