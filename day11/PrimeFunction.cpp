@@ -1,20 +1,26 @@
+
 #include <iostream>
 using namespace std;
-
-int findMaximum(int num1, int num2){
-    if (num1 > num2) {
-        return num1;
-    } else {
-        return num2;
+bool isPrime(int n){
+    if (n <= 1){
+        return false;
     }
+    for (int i = 2; i * i <= n; i++){
+        if (n % i == 0){
+            return false;
+        }
+    }
+    return true; 
 }
-
 int main(){
-    int a, b;
-    cout << "Enter two numbers: ";
-    cin >> a >> b;
-    int maxVal = findMaximum(a, b);
+    int num;
+    cout << "Enter a positive integer: ";
+    cin >> num;
+    if (isPrime(num)) {
+        cout << num << " is a prime number." << endl;
+    }else{
+        cout << num << " is not a prime number." << endl;
+    }
 
-    cout << "The maximum value is: " << maxVal << endl;
     return 0;
 }
