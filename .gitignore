@@ -58,3 +58,7 @@ day15/ReverseArray.exe
 day15/RotateArrayleft.exe
 day15/RotateArrayRight.exe
 day15/MoveZeroestoend.exe
+day16/FindMissingNumber.exe
+day16/MaximumFrequencyElement.exe
+day16/PairWithGivenSum.exe
+day16/RemoveDuplicates.exe
