@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main() {
+int main(){
     int n;
     cout << "Enter the value of n: ";
     cin >> n;
@@ -9,6 +9,5 @@ int main() {
         sum += i;
     }
     cout << "The sum of the first " << n << " natural numbers is: " << sum << endl;
-
     return 0;
 }

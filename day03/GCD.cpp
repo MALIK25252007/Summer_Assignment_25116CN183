@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int gcd(int a, int b) {
+int gcd(int a, int b){
     while (b != 0) {
         int temp = b;
         b = a % b;
@@ -8,7 +8,7 @@ int gcd(int a, int b) {
     }
     return a;
 } 
-int main() {
+int main(){
     int num1, num2,result;
     cout << "Enter two numbers: ";
     cin >> num1 >> num2;

@@ -8,10 +8,10 @@ int countSetBits(unsigned int n){
     }
     return count;
 }
-int main() {
+int main(){
     unsigned int num;
     cout << "Enter a non-negative integer: ";
-    if (!(cin >> num)) { 
+    if (!(cin >> num)){ 
         cerr << "Invalid input!!! Please enter a valid non-negative integer.\n";
         return 1;
     }

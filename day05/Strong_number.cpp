@@ -3,7 +3,7 @@ using namespace std;
 
 int fact(int digit){
     unsigned long long factorial = 1;
-    for (int i = 1; i <= digit; i++) {
+    for (int i = 1; i <= digit; i++){
 
         factorial *= i;
     }

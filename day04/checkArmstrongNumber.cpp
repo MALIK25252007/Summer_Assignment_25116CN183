@@ -1,23 +1,23 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-int main()  {
+int main(){
     int num, originalNum, remainder, result = 0;
     cout << "Enter an integer: ";
     cin >> num;
     int count = 0;
     originalNum = num;
-    while (num > 0) {
+    while (num > 0){
         num /= 10;
         count++; 
     }
-    num = originalNum; // reset num to original value for the next loop
-    while (originalNum != 0) {
+    num = originalNum;
+    while (originalNum != 0){
         remainder = originalNum % 10;
-        result += pow(remainder, count);//power function from cmath library to calculate the power of the digit
+        result += pow(remainder, count);
         originalNum /= 10;
     } 
-    if (result == num) {
+    if (result == num){
         cout << num << " is an Armstrong number." << endl;
     } else {
         cout << num << " is not an Armstrong number." << endl;
