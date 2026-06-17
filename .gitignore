@@ -62,3 +62,7 @@ day16/FindMissingNumber.exe
 day16/MaximumFrequencyElement.exe
 day16/PairWithGivenSum.exe
 day16/RemoveDuplicates.exe
+day17/MergeArrays.exe
+day17/Union_ofArrays.exe
+day17/Intersection_of_Arrays.exe
+day17/CommonElement.exe
