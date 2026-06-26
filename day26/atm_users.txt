@@ -1,0 +1,4 @@
+101 1111 Tarun_Malik Savings 4500 Opened_Account No_Transaction No_Transaction 1
+102 2222 Arun_Malik Current 8900.5 Opened_Account No_Transaction No_Transaction 1
+103 3333 Virat_Kohli Current 125000 Opened_Account No_Transaction No_Transaction 1
+104 4444 Thala Savings 999999 Opened_Account No_Transaction No_Transaction 0

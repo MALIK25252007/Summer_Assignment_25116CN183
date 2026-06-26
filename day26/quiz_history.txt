@@ -1,0 +1,3 @@
+tarun 2 20
+modi 0 0
+trump 1 10
