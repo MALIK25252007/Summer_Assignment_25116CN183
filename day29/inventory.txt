@@ -1,0 +1,3 @@
+101 45 1200 Electronics | iPhone_15
+102 4 15.50 Stationary | Notebook_Pack
+103 75 8.99 Groceries | Organic_Almonds
